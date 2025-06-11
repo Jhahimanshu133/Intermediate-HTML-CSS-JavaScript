@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form </title>
+ <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <script src="app2.js"></script>
+<div class="bg-img">
+  <form class="container">
+    <h1>Contact Form</h1>
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="Name" required>
+    <label for="Email"><b>Email</b></label>
+    <input type="Email" placeholder="Enter Email" name="Email" required>
+      <label for="message"><b>Message</b></label>
+  <textarea id="message" required></textarea>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+<h3>Add Task with Image</h3>
+<input type="text" id="taskInput" placeholder="Add a task">
+<input type="file" id="imageInput" accept="image/*">
+<button onclick="addTask()">Add</button>
+<ul id="taskList"></ul>
+</body>
+</html>
+  
+
+  
